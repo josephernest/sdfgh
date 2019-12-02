@@ -1,5 +1,7 @@
 # sdfgh
 
+![](https://gget.it/yfg7/2.png)
+
 ## Why this name?
 
 "sdfgh" are consecutive letters from the second row of a QWERTY or AZERTY keyboard, the kind of letters you type when you need a random name.
@@ -12,9 +14,9 @@ We often hear:
 
 This is true, and here it's even:
 
-*"Don't trust an encryption program if you cannot read its source code completely in 10 minutes."*
+*"Don't trust an encryption program if you cannot read its source code completely in 5 minutes."*
 
-You want to use it this program for your personal notes? Just take 10 minutes to read the 65 lines of code(*).
+You want to use it this program for your personal notes? Just take 5 minutes to read the 65 lines of code(*).
 
 ## Why another lightweight notepad with encryption?
 
@@ -40,7 +42,7 @@ Just run `python sdfgh.py`. That's all.
 ## Contributions
 
 Feel free to post issues.
-NB: This project will (probably) never be made longer than 100 lines of code, so nearly no new features will be added. (No modular splitting into several .py files will be done, and no re-structuring with `Class MyEditor:` as well, etc.)
+NB: This project will (probably) never be made longer than 100 lines of code, so nearly no new features will be added. (No modular splitting into several .py files will be done, and no re-structuring with `Class MyEditor:`, etc.)
 
 ## Author
 
