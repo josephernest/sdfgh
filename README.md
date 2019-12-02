@@ -14,9 +14,9 @@ We often hear:
 
 This is true, and here it's even:
 
-*"Don't trust an encryption program if you cannot read its source code completely in 5 minutes."*
+*"Don't trust my encryption program if you cannot read its source code completely in 5 minutes."*
 
-You want to use it this program for your personal notes? Just take 5 minutes to read the 65 lines of code(*).
+You want to use it this program for your personal notes? Just take 5 minutes to read the ~70 lines of code(*).
 
 ## Why another lightweight notepad with encryption?
 
