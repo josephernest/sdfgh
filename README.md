@@ -27,7 +27,7 @@ I needed an encrypted notepad for personal notes that has these features:
 * Open-source
 * Dark mode colors
 * The unencrypted plaintext is **never** written to disk
-* I wanted to be able to read the full source-code before using it, without spending 1 full day on it
+* I wanted to be able to read the full source-code before using it, without spending 1 full day on it (so I finally wrote it in a few hours)
 
 (*) Ok, you still have to trust Python code (I think it's ok) and [PyCryptoDome](https://pypi.org/project/pycryptodome/).
 
