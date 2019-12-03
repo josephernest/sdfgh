@@ -1,4 +1,4 @@
-import tkinter, tkinter.messagebox, tkinter.simpledialog, tkinter.scrolledtext, Crypto, Crypto.Random, Crypto.Protocol.KDF, Crypto.Cipher.AES
+import tkinter, tkinter.messagebox, tkinter.simpledialog, tkinter.scrolledtext, Crypto.Random, Crypto.Protocol.KDF, Crypto.Cipher.AES
 import os; os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 def crypto(pwd, iv):
