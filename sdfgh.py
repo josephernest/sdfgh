@@ -1,5 +1,5 @@
-import tkinter, tkinter.messagebox, tkinter.simpledialog, tkinter.scrolledtext, Crypto.Random, Crypto.Protocol.KDF, Crypto.Cipher.AES
-import os; os.chdir(os.path.dirname(os.path.abspath(__file__)))
+import tkinter, tkinter.messagebox, tkinter.simpledialog, tkinter.scrolledtext, Crypto.Random, Crypto.Protocol.KDF, Crypto.Cipher.AES, os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 def cipherAES_GCM(pwd, nonce):
     key = Crypto.Protocol.KDF.PBKDF2(pwd, nonce, count=100000)
     return Crypto.Cipher.AES.new(key, Crypto.Cipher.AES.MODE_GCM, nonce=nonce, mac_len=16)
@@ -22,7 +22,7 @@ def load():
             try:
                 root.update_idletasks()
                 pwd = tkinter.simpledialog.askstring('sdfgh', 'Password:', show="*").encode()
-                s = cipherAES_GCM(pwd, nonce).decrypt_and_verify(ciphertext, tag)
+                s = cipherAES_GCM(pwd, nonce).decrypt_and_verify(ciphertext, tag).decode()
                 break
             except AttributeError:
                 exit()
