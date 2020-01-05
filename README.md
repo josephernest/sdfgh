@@ -50,4 +50,4 @@ NB: This project will (probably) never be made longer than 100 lines of code, so
 
 [@JosephErnest](https://twitter.com/josephernest) on Twitter
 
-More on https://afewthingz.com.
+More on https://afewthingz.com/sdfghencryptednotepad.
