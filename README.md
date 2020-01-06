@@ -46,6 +46,10 @@ Just run `python sdfgh.py`. That's all.
 Feel free to post issues.
 NB: This project will (probably) never be made longer than 100 lines of code, so nearly no new features will be added. (No modular splitting into several .py files will be done, and no re-structuring with `Class MyEditor:`, etc.)
 
+## About this project
+
+This project started as an attempt to write an encryption plugin for Sublime Text (see [here](https://stackoverflow.com/questions/59054272/decrypt-on-open-encrypt-on-save-with-sublime)) but the integration is not that easy since Sublime Text compares the file on disk with the buffer to determine if there are unsaved changes; if the former is encrypted after saving, the editor always see unsaved changes, and this introduces a lot of small issues.
+
 ## Author
 
 [@JosephErnest](https://twitter.com/josephernest) on Twitter
