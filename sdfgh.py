@@ -41,7 +41,7 @@ def find(e, findnext=False):
         start = "1.0"
     else:
         start = text.index(tkinter.INSERT) + "+1c"
-    pos = text.search(query, start, stopindex="end", nocase=True)
+    pos = text.search(query, start, stopindex="end", nocase=True, regexp=True)
     if pos != '':
         text.mark_set("insert", pos)
         text.see("insert")
